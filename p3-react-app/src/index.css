@@ -1,0 +1,179 @@
+/* :root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #303846;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  text-align: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.writingarea {
+  width: 500px;
+}
+
+.nav {
+  
+} */
+
+body {
+  font-family: Arial;
+  margin: 0;
+  padding: 0;
+}
+
+.home-page, .snippet-view {
+  display: flex
+  justify-content: center;
+  text-align: center;
+}
+
+.app-navbar {
+  text-align: right;
+}
+
+.navigation-bar {
+  background-color: #e5e4e2;
+  padding-top: 0.1vh;
+  padding-bottom: 0.1vh;
+}
+
+.navigation-bar ul {
+  list-style-type: none;
+  padding: 0.5vh;
+  font-size: 1.5em;
+}
+
+.navigation-bar li {
+  display: inline;
+  margin: 20px;
+}
+
+.navigation-bar a {
+  color: blue;
+  text-decoration: none;
+}
+
+.timertext {
+  margin: auto;
+  width: 50%
+  padding: 10px;
+}
+
+.number-input {
+  width: 80px;
+  height: 50px;
+  margin: 20px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.title-input {
+  width: 30vw;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number]{
+    -moz-appearance: textfield;
+}
+
+.history-container {
+  display: inline-grid;
+  padding: 4em;
+  margin: 5em;
+  border-style: solid;
+  width: 200px;
+}
+
+.history-container p {
+  text-align: center;
+}
+
+.history-container button {
+  background-color: white;
+  width: 80px;
+}
+
+.writing-area {
+  width: 100vh;
+}
+
+.home-buttons {
+  margin: 0.5em;
+}
+
+.start-button {
+  background-color: #008000;
+  border: none;
+  color: white;
+  padding: 10px;
+  display: inline-block;
+}
+
+.start-button:active {
+  background-color: #38B000;
+  transform: translateY(4px)
+}
+
+.pause-button {
+  background-color: #FFBF00;
+  border: none;
+  color: white;
+  padding: 10px;
+  display: inline-block;
+}
+
+.pause-button:active {
+  background-color: #FFEA00;
+  transform: translateY(4px)
+}
+
+.reset-button {
+  background-color: #DD0000;
+  border: none;
+  color: white;
+  padding: 10px;
+  display: inline-block;
+}
+
+.reset-button:active {
+  background-color: #E5383B;
+  transform: translateY(4px)
+}
+
+.save-button {
+  background-color: #FFFFFF;
+  border: solid;
+  border-radius: 5px;
+  color: black;
+}
+
+.save-button:active {
+  background-color: #F5F3F4;
+  transform: translateY(4px)
+}
